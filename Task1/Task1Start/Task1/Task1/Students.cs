@@ -12,15 +12,11 @@ namespace Task1
 
         public override void GetInformation(string name, string surname, int age)
         {
-
+            int avarageMark = this.avarageMark;
+            bool isGraduated = this.IsGraduated;
+            Console.WriteLine($"{name} {surname} {age} {avarageMark} {isGraduated}");
         }
 
-        public Students(string name, string surname, int age, int avarageMark, bool IsGraduated)
-        {
-            GetInformation(name, surname, age);
 
-            Console.WriteLine($"This Student : {name} - {surname} - {age} - {avarageMark} - {IsGraduated}");
-
-        }
     }
 }
