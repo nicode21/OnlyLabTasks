@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\bin\Debug\netcoreapp3.1\Iyerarxiya.exe
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\bin\Debug\netcoreapp3.1\Iyerarxiya.deps.json
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\bin\Debug\netcoreapp3.1\Iyerarxiya.runtimeconfig.json
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\bin\Debug\netcoreapp3.1\Iyerarxiya.runtimeconfig.dev.json
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\bin\Debug\netcoreapp3.1\Iyerarxiya.dll
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\bin\Debug\netcoreapp3.1\Iyerarxiya.pdb
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.AssemblyInfo.cs
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.dll
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.pdb
+C:\Users\User\Desktop\SolutionOfTasks\Task2 StudentGroupFaculty\Task2\Iyerarxiya\Iyerarxiya\obj\Debug\netcoreapp3.1\Iyerarxiya.genruntimeconfig.cache

@@ -1,0 +1,1 @@
+iyerarxiya qurmaq array resize methodu olur classlari istediyin tipde yaza bilerem studentler olur proplar idler falan olur id ni static artiracam qrup classi yaradirsan qrup classinda number name id olsun faculty university yaradilir miras almir unilerde facultylerde add methodu olur GetAll methodlari yaradilir 

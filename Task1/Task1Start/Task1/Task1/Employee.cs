@@ -6,17 +6,20 @@ namespace Task1
 {
     public class Employee : Person
     {
-        public int salary { get; set; }
+        public int Salary { get; set; }
 
-        public string position { get; set; }
+        public string Position { get; set; }
 
-        public override void GetInformation(string name,string surname,int age)
-        {
-            int salary = this.salary;
-            string position = this.position;
-            Console.WriteLine($"{name} {surname} {age} {salary} {position}");
+        public override void GetInformation()
+        {            
+            Console.WriteLine($"{name} - {surname} - {age} - {Salary} - {Position}");            
         }
 
-        
+        public Employee(string name,string surname,int age,int salary,string position) : base(name,surname,age)
+        {
+            Salary=salary;
+            Position=position;
+            
+        }
     }
 }

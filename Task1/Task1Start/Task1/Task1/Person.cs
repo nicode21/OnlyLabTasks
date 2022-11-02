@@ -13,14 +13,21 @@ namespace Task1
         public int age { get; set; }
 
         
-        public virtual void GetInformation(string name, string surname,int age)
+        public virtual void GetInformation()
         {
-            this.name = name;
-            this.surname=surname;
-            this.age =age;
+            Console.WriteLine($"{name} - {surname} - {age}");
 
         }
-        
+        public Person(string name, string surname, int age)
+        {
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
+                        
+        }
+
+
+
 
     }
 }

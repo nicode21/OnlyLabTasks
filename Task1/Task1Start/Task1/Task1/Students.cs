@@ -6,17 +6,21 @@ namespace Task1
 {
     public class Students : Person
     {        
-        public int avarageMark { get; set; }
+        public int AvarageMark { get; set; }
         public bool IsGraduated { get; set; }
 
 
-        public override void GetInformation(string name, string surname, int age)
-        {
-            int avarageMark = this.avarageMark;
-            bool isGraduated = this.IsGraduated;
-            Console.WriteLine($"{name} {surname} {age} {avarageMark} {isGraduated}");
+        public override void GetInformation()
+        {            
+            Console.WriteLine($"{name} - {surname} - {age} - {AvarageMark} - {IsGraduated}");
         }
 
+        public Students(string name , string surname,int age,int avarageMark,bool isGraduated) : base(name,surname,age)
+        {
+            AvarageMark = avarageMark;
+            IsGraduated=isGraduated;
+            
+        }
 
     }
 }
