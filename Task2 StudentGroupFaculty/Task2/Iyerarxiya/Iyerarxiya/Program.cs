@@ -11,34 +11,68 @@ namespace Iyerarxiya
             
             Students stu1 = new Students("Nicat","Novruzzade",21);
 
-            stu1.Add(stu1);
             
             //stu1.GetAllInfo();
             
 
             Students stu2 = new Students("Nica", "Novrde", 20);
+            Students stu3 = new Students("Nica", "Novrde", 20);
+            Students stu4 = new Students("Nica", "Novrde", 20);
 
             //stu2.GetAllInfo();
 
-            stu2.Add(stu2);
 
             //Students.GetAllStudentsInfo();
 
 
             Groups group1 = new Groups("P414");
 
-            group1.Add(group1);
+            group1.Add(stu1);
+
+            group1.Add(stu2);
+
+            //group1.GetGroupInfo();
+
+
+            Groups group2 = new Groups("P232");
+
+            group2.Add(stu3);
+
+            group2.Add(stu4);
+
+            //group2.GetGroupInfo();
+
+
 
             //group1.GetGroupInfo();
 
 
             Faculties faculty1 = new Faculties("Iqtisadiyyat");
 
-            faculty1.Add(faculty1);
+            faculty1.Add(group1);
+
+            faculty1.Add(group2);
 
             //faculty1.GetFacultyInfo();
 
+            
+            Faculties faculty2 = new Faculties("Muhendsilik");
+
+            faculty2.Add(group1);
+            faculty2.Add(group2);
+
+            //faculty2.GetFacultyInfo();
+
             //Faculties.GetAllFacultiesInfo();
+
+            Universities uni1 = new Universities("BDU");
+
+            uni1.Add(faculty1);
+            uni1.Add(faculty2);
+
+            uni1.GetUniInfo();
+
+            //uni1.GetFacultyInfo();
 
         }
 

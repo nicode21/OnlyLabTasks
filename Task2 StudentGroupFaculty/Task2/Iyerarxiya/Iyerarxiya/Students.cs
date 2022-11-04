@@ -41,16 +41,7 @@ namespace Iyerarxiya
 
         
 
-        public void Add(Students student)
-        {
-            
-
-            Array.Resize(ref _arr,_arr.Length+1);
-            _arr[_arr.Length-1]= student;
-
-            
-
-        }
+        
 
 
         public void GetAllInfo()
@@ -61,13 +52,13 @@ namespace Iyerarxiya
         }
 
 
-        public static void GetAllStudentsInfo()
-        {
-            foreach (var item in _arr)
-            {
-                Console.WriteLine($"{item.Id} --> {item.Name} - {item.Surname} - {item.Age}");
-            }
-        }
+        //public static void GetAllStudentsInfo()
+        //{
+        //    foreach (var item in _arr)
+        //    {
+        //        Console.WriteLine($"{item.Id} --> {item.Name} - {item.Surname} - {item.Age}");
+        //    }
+        //}
 
     }
 }

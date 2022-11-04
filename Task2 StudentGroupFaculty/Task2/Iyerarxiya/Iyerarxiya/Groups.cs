@@ -4,28 +4,40 @@ using System.Text;
 
 namespace Iyerarxiya
 {
-    public class Groups 
+    public class Groups
     {
         //public List<Groups> groups  =  new List<Groups>();
 
-        public static Groups[] groups = new Groups[0];
+        public static Students[] Sstudents = new Students[0];
+        public  Students[] Students = new Students[0];
 
         public static int GStid { get; set; }
 
         public string GroupName { get; set; }
+
         public int GId { get; set; }
+
+
+        public Groups()
+        {
+
+        }
+
 
         public Groups(string name)
         {
             GroupName= name;
             GStid++;
             GId =GStid;
+
+            Sstudents = Students;
         }
 
-        public void Add(Groups group)
+        public void Add(Students student)
         {
-            Array.Resize(ref groups, groups.Length + 1);
-            groups[groups.Length - 1] = group;
+            Array.Resize(ref Students, Students.Length + 1);
+            Students[Students.Length - 1] = student;
+
 
         }
 
@@ -33,17 +45,24 @@ namespace Iyerarxiya
         public void GetGroupInfo()
         {
 
-            Console.WriteLine($"{GId} --> {GroupName}");
-
-        }
+            Console.WriteLine($"{GId} : {GroupName} \n\n");
 
 
-        public static void GetAllGroupsInfo()
-        {
-            foreach (var item in groups)
+            foreach (var item in Students)
             {
-                Console.WriteLine($"{item.GId} --> {item.GroupName}");
+                Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age}\n\n");
             }
+            Console.WriteLine("\n\n\n\n");
+
         }
+
+
+        //public static void GetAllGroupsInfo()
+        //{
+        //    foreach (var item in students)
+        //    {
+        //        Console.WriteLine($"{item.Id} --> {item.Name} - {item.Surname} - {item.Age}");
+        //    }
+        //}
     }
 }

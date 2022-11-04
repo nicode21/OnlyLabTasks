@@ -4,12 +4,14 @@ using System.Text;
 
 namespace Iyerarxiya
 {
-    public class Faculties
+    public class Faculties :Groups
     {
         public static int FStid { get; set; }
         public int Fid { get; set; }
 
-        public static Faculties[] faculties = new Faculties[0]; 
+        public static Groups[] Sfaculties = new Groups[0]; 
+
+        public Groups[] faculties = new Groups[0]; 
         public string FacultyName { get; set; }
 
         public Faculties(string name)
@@ -17,30 +19,59 @@ namespace Iyerarxiya
             FacultyName = name;
             FStid++;
             Fid = FStid;
+
+            Sfaculties = faculties;
         }
 
-        public void Add(Faculties faculty)
+        public void Add(Groups group)
         {
             Array.Resize(ref faculties, faculties.Length + 1);
-            faculties[faculties.Length - 1] = faculty;
+            faculties[faculties.Length - 1] = group;
 
         }
 
 
         public void GetFacultyInfo()
         {
-
-            Console.WriteLine($"{Fid} --> {FacultyName}");
-
-        }
+            
 
 
-        public static void GetAllFacultiesInfo()
-        {
-            foreach (var item in faculties)
+            Console.WriteLine($"{Fid} : {FacultyName} \n\n");
+
+
+            foreach (Groups item in faculties)
             {
-                Console.WriteLine($"{item.Fid} --> {item.FacultyName}");
+                //Console.WriteLine($"{item.GId} - {item.GroupName} \n\n");
+
+                //foreach (var iten in Students)
+                //{
+                //    Console.WriteLine($"{iten.Id} - {iten.Name} - {iten.Surname} - {iten.Age}");
+                //}
+
+                item.GetGroupInfo();
+
             }
+            Console.WriteLine("\n\n\n\n");
+
+
+
+
+            //int[] items = { 10, 100, 1000 };
+            //// Display elements with ForEach.
+            //Array.ForEach(items, element => Console.WriteLine(
+            //    "Element is " + element));
         }
+        
+
+        //public static void GetAllFacultiesInfo()
+        //{
+        //    foreach (var item in Sfaculties)
+        //    {
+        //        Console.WriteLine($"{item.GId} --> {item.GroupName}");
+
+
+
+        //    }
+        //}
     }
 }
