@@ -19,14 +19,6 @@ namespace Iyerarxiya
 
         public int Age { get; set; }
 
-
-
-        public Students()
-        {
-
-        }
-
-
         public Students(string name,string surname,int age)
         {
             
@@ -39,16 +31,17 @@ namespace Iyerarxiya
             Id = SStId;
         }
 
-        
-
-        
-
-
-        public void GetAllInfo()
+        public void GetStudentInfo()
         {
             
             Console.WriteLine($"{Id} --> {Name} - {Surname} - {Age} ");
             
+        }
+
+
+        public string StudentInfo()
+        {
+            return $"{Id} - {Name} - {Surname} - {Age}";
         }
 
 

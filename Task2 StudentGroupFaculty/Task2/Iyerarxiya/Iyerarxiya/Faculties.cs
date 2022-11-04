@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Iyerarxiya
 {
-    public class Faculties :Groups
+    public class Faculties 
     {
         public static int FStid { get; set; }
         public int Fid { get; set; }
 
-        public static Groups[] Sfaculties = new Groups[0]; 
+        //public static Groups[] Sfaculties = new Groups[0]; 
 
         public Groups[] faculties = new Groups[0]; 
         public string FacultyName { get; set; }
@@ -20,7 +20,7 @@ namespace Iyerarxiya
             FStid++;
             Fid = FStid;
 
-            Sfaculties = faculties;
+            //Sfaculties = faculties;
         }
 
         public void Add(Groups group)
@@ -33,10 +33,7 @@ namespace Iyerarxiya
 
         public void GetFacultyInfo()
         {
-            
-
-
-            Console.WriteLine($"{Fid} : {FacultyName} \n\n");
+            Console.WriteLine($"{Fid} : {FacultyName} ");
 
 
             foreach (Groups item in faculties)
@@ -51,27 +48,18 @@ namespace Iyerarxiya
                 item.GetGroupInfo();
 
             }
-            Console.WriteLine("\n\n\n\n");
-
-
-
-
+            //Console.WriteLine("\n\n\n\n");
+            
             //int[] items = { 10, 100, 1000 };
             //// Display elements with ForEach.
             //Array.ForEach(items, element => Console.WriteLine(
             //    "Element is " + element));
         }
-        
 
-        //public static void GetAllFacultiesInfo()
-        //{
-        //    foreach (var item in Sfaculties)
-        //    {
-        //        Console.WriteLine($"{item.GId} --> {item.GroupName}");
+        public Groups[] FacultyInfo()
+        {
+            return faculties;
+        }
 
-
-
-        //    }
-        //}
     }
 }

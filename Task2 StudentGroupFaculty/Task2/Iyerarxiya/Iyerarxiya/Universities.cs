@@ -8,7 +8,7 @@ namespace Iyerarxiya
     {
         public static int UStId { get; set; }
         public int UId { get; set; }
-        public static Faculties[] Suniversities = new Faculties[0];
+        //public static Faculties[] Suniversities = new Faculties[0];
         public Faculties[] universities = new Faculties[0];
         public string UniName { get; set; }
 
@@ -18,7 +18,7 @@ namespace Iyerarxiya
             UniName= name;
             UStId++;
             UId = UStId;
-            Suniversities=universities;
+            //Suniversities=universities;
         }
         
 
@@ -26,15 +26,11 @@ namespace Iyerarxiya
         {
             Array.Resize(ref universities, universities.Length + 1);
             universities[universities.Length - 1] = faculties;
-
         }
-
 
         public void GetUniInfo()
         {
-
-
-            Console.WriteLine($"{UId} : {UniName} \n\n");
+            Console.WriteLine($"{UId} : {UniName}");
 
 
             foreach (Faculties item in universities)
@@ -44,18 +40,13 @@ namespace Iyerarxiya
                 item.GetFacultyInfo();
                 
             }
-            Console.WriteLine("\n\n\n\n");
-
+            //Console.WriteLine("\n\n\n\n");
         }
 
-
-        //public static void GetAllFacultiesInfo()
-        //{
-        //    foreach (var item in universities)
-        //    {
-        //        Console.WriteLine($"{item.UId} --> {item.UniName}");
-        //    }
-        //}
+        public Faculties[] UniversityInfo()
+        {
+            return universities;
+        }
 
     }
 }

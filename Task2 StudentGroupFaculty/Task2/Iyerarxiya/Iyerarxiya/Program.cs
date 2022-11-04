@@ -15,9 +15,9 @@ namespace Iyerarxiya
             //stu1.GetAllInfo();
             
 
-            Students stu2 = new Students("Nica", "Novrde", 20);
-            Students stu3 = new Students("Nica", "Novrde", 20);
-            Students stu4 = new Students("Nica", "Novrde", 20);
+            Students stu2 = new Students("Resul", "Hesenov", 20);
+            Students stu3 = new Students("Yuksel", "Atali", 20);
+            Students stu4 = new Students("Ferid", "Hesenli", 20);
 
             //stu2.GetAllInfo();
 
@@ -55,7 +55,7 @@ namespace Iyerarxiya
 
             //faculty1.GetFacultyInfo();
 
-            
+
             Faculties faculty2 = new Faculties("Muhendsilik");
 
             faculty2.Add(group1);
@@ -70,9 +70,26 @@ namespace Iyerarxiya
             uni1.Add(faculty1);
             uni1.Add(faculty2);
 
-            uni1.GetUniInfo();
+            //uni1.GetUniInfo();
 
-            //uni1.GetFacultyInfo();
+
+            //foreach (var item in uni1.FacultiesInfo())
+            //{
+            //    Console.WriteLine(item.Fid + "-" + item.FacultyName );
+            //}
+
+            foreach (var item in uni1.UniversityInfo())
+            {
+                Console.WriteLine($"{item.Fid} - {item.FacultyName}");
+            }
+            foreach (var item in group1.GroupInfo())
+            {
+                Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age}");
+            }
+            foreach (var item in faculty1.FacultyInfo())
+            {
+                Console.WriteLine($"{item.GId} - {item.GroupName}");
+            }
 
         }
 
