@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\bin\Debug\netcoreapp3.1\AddTask3.exe
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\bin\Debug\netcoreapp3.1\AddTask3.deps.json
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\bin\Debug\netcoreapp3.1\AddTask3.runtimeconfig.json
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\bin\Debug\netcoreapp3.1\AddTask3.runtimeconfig.dev.json
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\bin\Debug\netcoreapp3.1\AddTask3.dll
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\bin\Debug\netcoreapp3.1\AddTask3.pdb
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.AssemblyInfo.cs
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.dll
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.pdb
+C:\Users\User\Desktop\SolutionOfTasks\Task3 GENERIC\Task3\AddTask3\AddTask3\obj\Debug\netcoreapp3.1\AddTask3.genruntimeconfig.cache

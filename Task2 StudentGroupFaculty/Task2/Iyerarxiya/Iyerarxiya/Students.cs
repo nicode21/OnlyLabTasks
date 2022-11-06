@@ -19,13 +19,20 @@ namespace Iyerarxiya
 
         public int Age { get; set; }
 
-        public Students(string name,string surname,int age)
+        public int AvarageMark { get ; set ; }
+
+        public bool IsGraduated { get ; set ; }
+
+        public Students(string name,string surname,int age,int avarageMark,bool isGraduated)
         {
             
 
             Name=name;
             Surname=surname;
             Age = age;
+            AvarageMark=avarageMark;
+            IsGraduated=isGraduated;
+
             SStId++;
 
             Id = SStId;
@@ -34,14 +41,14 @@ namespace Iyerarxiya
         public void GetStudentInfo()
         {
             
-            Console.WriteLine($"{Id} --> {Name} - {Surname} - {Age} ");
+            Console.WriteLine($"{Id} --> {Name} - {Surname} - {Age} - Mark : {AvarageMark} - Graduated : {IsGraduated}");
             
         }
 
 
         public string StudentInfo()
         {
-            return $"{Id} - {Name} - {Surname} - {Age}";
+            return $"{Id} - {Name} - {Surname} - {Age} - Mark : {AvarageMark} - Graduated : {IsGraduated}";
         }
 
 

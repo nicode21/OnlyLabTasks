@@ -40,7 +40,7 @@ namespace Iyerarxiya
 
             foreach (var item in Students)
             {
-                Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age}");
+                Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age} - Mark : {item.AvarageMark} - Graduated : {item.IsGraduated}");
             }
             //Console.WriteLine("\n\n\n\n");
 

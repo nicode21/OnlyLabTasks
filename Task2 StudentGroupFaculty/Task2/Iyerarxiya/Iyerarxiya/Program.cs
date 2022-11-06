@@ -9,15 +9,15 @@ namespace Iyerarxiya
         static void Main(string[] args)
         {
             
-            Students stu1 = new Students("Nicat","Novruzzade",21);
+            Students stu1 = new Students("Nicat","Novruzzade",21,40,false);
 
             
             //stu1.GetAllInfo();
             
 
-            Students stu2 = new Students("Resul", "Hesenov", 20);
-            Students stu3 = new Students("Yuksel", "Atali", 20);
-            Students stu4 = new Students("Ferid", "Hesenli", 20);
+            Students stu2 = new Students("Resul", "Hesenov", 20,100,true);
+            Students stu3 = new Students("Yuksel", "Atali", 20,95,true);
+            Students stu4 = new Students("Ferid", "Hesenli", 20,90,true);
 
             //stu2.GetAllInfo();
 
@@ -70,7 +70,7 @@ namespace Iyerarxiya
             uni1.Add(faculty1);
             uni1.Add(faculty2);
 
-            //uni1.GetUniInfo();
+            uni1.GetUniInfo();
 
 
             //foreach (var item in uni1.FacultiesInfo())
@@ -78,18 +78,18 @@ namespace Iyerarxiya
             //    Console.WriteLine(item.Fid + "-" + item.FacultyName );
             //}
 
-            foreach (var item in uni1.UniversityInfo())
-            {
-                Console.WriteLine($"{item.Fid} - {item.FacultyName}");
-            }
-            foreach (var item in group1.GroupInfo())
-            {
-                Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age}");
-            }
-            foreach (var item in faculty1.FacultyInfo())
-            {
-                Console.WriteLine($"{item.GId} - {item.GroupName}");
-            }
+            //foreach (var item in uni1.UniversityInfo())
+            //{
+            //    Console.WriteLine($"{item.Fid} - {item.FacultyName}");
+            //}
+            //foreach (var item in group1.GroupInfo())
+            //{
+            //    Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age}");
+            //}
+            //foreach (var item in faculty1.FacultyInfo())
+            //{
+            //    Console.WriteLine($"{item.GId} - {item.GroupName}");
+            //}
 
         }
 
