@@ -8,10 +8,11 @@ namespace AddTask3
     {
         public int Id { get ; set ; }
         public static int SId { get ; set ; }
-        public T[] CustomList = new T [0]; 
+        public T[] CustomList ;
 
         public Lists()
         {
+            CustomList = new T[0];
             SId++;
             Id = SId;
         }

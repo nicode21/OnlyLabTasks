@@ -7,7 +7,6 @@ namespace AddTask3
     {
         static void Main(string[] args)
         {
-
             Employee emp1 = new Employee("Nicat","Novruzzade",21,1000);
             Employee emp2 = new Employee("Hesen","Qarayev",25,1000);
             Employee emp3 = new Employee("Ramazan","Mustafayev",11,1000);
@@ -27,10 +26,8 @@ namespace AddTask3
             emplist.Add(emp3);
 
             foreach (var item in emplist.CustomList)
-
             {
                 Console.WriteLine($"{item.Id} - {item.Name} - {item.Surname} - {item.Age} - {item.Salary}");
-
             }
             
             Lists<Faculty> facultylist = new Lists<Faculty>();
@@ -40,7 +37,6 @@ namespace AddTask3
             facultylist.Add(faculty3);
 
             foreach (var item in facultylist.CustomList)
-
             {
                 Console.WriteLine($"{item.Id} - {item.Name}");
             }

@@ -8,11 +8,8 @@ namespace AddTask3
     {
         public int Id { get; set; }
         public static int SId { get; set; }
-
         public string Name { get; set; }
-
         public int Capacity { get; set; }
-
         public int PassingScore { get; set; }
 
         public University(string name,int capacity,int passingScore)

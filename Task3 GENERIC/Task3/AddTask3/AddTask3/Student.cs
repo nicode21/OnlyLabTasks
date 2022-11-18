@@ -9,12 +9,9 @@ namespace AddTask3
         public int Id { get; set; }
         public static int SId { get; set; }
         public string Name { get; set; }
-
         public string Surname { get; set; }
         public int Age { get; set; }
-
         public int AvarageMArk { get; set; }
-
 
         public Student(string name,string surname,int age,int avarageMark)
         {

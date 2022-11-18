@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\bin\Debug\netcoreapp3.1\Task4_Delegates.exe
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\bin\Debug\netcoreapp3.1\Task4_Delegates.deps.json
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\bin\Debug\netcoreapp3.1\Task4_Delegates.runtimeconfig.json
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\bin\Debug\netcoreapp3.1\Task4_Delegates.runtimeconfig.dev.json
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\bin\Debug\netcoreapp3.1\Task4_Delegates.dll
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\bin\Debug\netcoreapp3.1\Task4_Delegates.pdb
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.AssemblyInfo.cs
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.dll
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.pdb
+C:\Users\User\Desktop\SolutionOfTasks\Task4 Delegates\Task4_Delegates\Task4_Delegates\obj\Debug\netcoreapp3.1\Task4_Delegates.genruntimeconfig.cache

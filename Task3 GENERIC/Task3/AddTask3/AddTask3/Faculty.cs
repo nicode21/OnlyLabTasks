@@ -14,9 +14,6 @@ namespace AddTask3
         public Faculty(string name)
         {
             Name = name;
-
-            
-
             SId++;
             Id = SId;
         }
