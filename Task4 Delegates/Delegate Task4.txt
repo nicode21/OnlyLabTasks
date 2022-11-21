@@ -1,0 +1,28 @@
+Ekran acilanda size 3 option verir
+1.Show All products
+Konsoldan 1 daxil edende Butun productlarinizin melumatlarini gostermelidir
+
+2.Add Products
+Konsoldan 2 daxil edende
+Yeni bir product yaratmaq ucun sizden ProductName, Product price istemelidir.
+Ve yeni yaranan productu listinize add etmelidir
+
+3.Remove Product
+Konsoldan 3 daxil olunanda sizden silmek istediyiniz productun adini istemelidir.
+ve hemin addaki productu listden silmelidir,
+Listin Remove metodu ile yox ,IsDeleted propertysi vasitesile edin.
+
+Eger konsoldan daxil olan eded 3den ferqlidise onda ekrana "bele bir secim yoxdu" cixsin
+
+
+Product classiniz var. Name,price ve isDeletd proplari var.
+ custom bir Delegate yazirsiz.(asanliq ucun evvelce 2
+ delegate yazirsiz daha sonra genericlesdireceksiniz)
+ GetProduct metodunuz olmalidir ve
+ parametr olaraq 2 metod ve product tipinden bir list qebul elemelidir.
+Metodlardan biri CheckPrice(), productun qiymetinin 500 den boyuk
+olub olmadigini yoxlamalidir, Diger metodunuz GetDiscount() , price qebul edir ve
+hemin pricenin 30 faiz endirimli qiymetini return edir.
+GetProduct metodunuz ekrana isDeletedi false olan productlarin informasiyalarini
+cixarmalidir. eger product endirime dusubse(qiymeti 500 den coxdusa) onda hemde
+yanina endirimli yazilmalidir 	
